@@ -1,0 +1,19 @@
+{
+    "name": "webjump/frenet",
+    "description": "",
+    "require": {
+        "php": "~7.4.0||~8.1.0",
+        "magento/framework": "*",
+        "magento/module-backend": "*",
+        "magento/module-config": "*"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Webjump\\ThemeBooster\\": ""
+        }
+    }
+}
